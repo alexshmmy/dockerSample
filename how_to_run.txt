@@ -1,0 +1,15 @@
+Tutorial link:
+https://u.group/thinking/how-to-put-jupyter-notebooks-in-a-dockerfile/ 
+
+How to run:
+docker build -t alex/new_proj .
+docker run -p 8888:8888 alex/new_proj
+
+docker start container_ID
+docker stop container_ID
+
+Docker commands:
+docker container ls -a
+docker container rm container_ID
+docker image ls
+docker image rm image_ID
