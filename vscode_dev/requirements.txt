@@ -7,3 +7,6 @@ z3-solver
 scikit-learn
 tensorflow==2.1
 keras==2.3.1
+
+# pip show LIBRARY
+# pip --version

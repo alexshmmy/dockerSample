@@ -30,7 +30,6 @@ print(s.check())
 print(s.model())
 
 ####
-
 x = Real('x')
 y = Real('y')
 s = Solver()
