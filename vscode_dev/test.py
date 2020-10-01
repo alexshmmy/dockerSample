@@ -1,4 +1,23 @@
+import sys
+import os
+import warnings
+import logging
+
+sys.dont_write_bytecode = True
+logging.disable(logging.WARNING)
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"
+warnings.filterwarnings('ignore')
+print(sys.path)
+
 from z3 import *
+#import numpy as np
+#import pandas as pd
+#import scipy
+#import matplotlib
+#import seaborn
+#import sklearn
+#import tensorflow as tf
+#import keras
 
 x = Real('x')
 y = Real('y')

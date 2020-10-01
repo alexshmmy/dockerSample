@@ -1,7 +1,6 @@
 numpy
 pandas
 scipy
-#itertools
 matplotlib
 seaborn
 z3-solver
