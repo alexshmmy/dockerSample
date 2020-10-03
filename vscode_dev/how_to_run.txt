@@ -1,0 +1,6 @@
+1) Open vscode
+2) Navigate to the current folder with runner.py and config.py
+3) Press the down left button
+4) Choose "Add development container configuration files"
+5) Choose the Python version you want
+6) Down right press "Add to container"
