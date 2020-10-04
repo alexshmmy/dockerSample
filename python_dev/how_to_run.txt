@@ -1,0 +1,15 @@
+# Build the image
+docker build . --tag python_app
+
+# Run the image 
+docker run -t -d --name python_dev python_app
+
+# The names python_app and python_dev are the names of the image and container respectively and can be changed.
+
+# docker stop python_dev
+# docker restart python_dev
+# docker start python_dev
+# docker container ls -a
+# docker container rm CONT_ID
+# docker image ls
+# docker image rm CONT_ID
