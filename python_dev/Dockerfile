@@ -39,3 +39,17 @@ COPY . .
 #    && pip install --no-cache-dir -r requirements.txt
 
 #COPY . .
+
+######Another one
+#FROM python:3.8
+#RUN pip install --upgrade "pip <= 22.1"
+#RUN apt-get update && \
+  apt-get install -y sudo curl git && \
+  curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.deb.sh | sudo bash && \
+  sudo apt-get install git-lfs
+
+#RUN cd /root
+#RUN cd /root && git clone https://git.hollmann.cz/mff/marl.git
+#WORKDIR /root
+
+#COPY . .
