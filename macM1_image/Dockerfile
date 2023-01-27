@@ -1,3 +1,5 @@
+# A simple docker image with ubuntu 20.04 and conda for Mac M1
+
 FROM --platform=linux/amd64 ubuntu:20.04
 
 RUN apt-get update && apt-get install -y \
