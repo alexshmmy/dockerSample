@@ -5,7 +5,7 @@ FROM python:3.8
 RUN apt-get update && apt-get install -y git-lfs
 
 # update pip
-RUN pip install --upgrade "pip == 22.1"
+RUN pip install --upgrade "pip == 22.2"
 
 # download the repo you want to test
 RUN chmod 777 /root
