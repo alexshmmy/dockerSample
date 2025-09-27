@@ -1,6 +1,6 @@
 # Docker sample
 
-Three basic docker files to deploy applicaitons in Python without installing 
+Three of basic docker files to deploy applicaitons in Python without installing 
 any dependencies locally.
 
 ```dockerSample/jupyter_dev```
